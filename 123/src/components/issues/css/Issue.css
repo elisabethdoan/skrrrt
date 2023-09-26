@@ -1,0 +1,37 @@
+#issue {
+    border-style: groove;
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: #E2432A;
+    border-radius: 1%;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  #issueDescription{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1vh;
+  }
+  
+  #title{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+
+  #issue > p {
+    text-align: left;
+    margin-left: 1vh;
+    margin-top: 0;
+    margin-bottom: 1vh;
+  }
+
+  #line{
+    border: 1px dashed;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #issue {
+      width: 90%;
+    }
+  }

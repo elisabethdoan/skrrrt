@@ -1,0 +1,22 @@
+img {
+    width: 30rem;
+    border: 0.4rem solid #E2432A;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vh;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 15rem;
+        border: 0.2rem solid #E2432A;
+        border-radius: 2px;
+        padding: 3px;
+    }
+}

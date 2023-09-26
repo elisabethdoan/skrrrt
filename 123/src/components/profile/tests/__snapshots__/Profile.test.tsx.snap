@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation button Renders with correctly 1`] = `
+<div
+  id="profile"
+>
+  <h4>
+    IT2810-Prosjekt2
+  </h4>
+  <img
+    alt="gitlab_avatar"
+    src="/gitlab_avatar.jpeg"
+  />
+</div>
+`;

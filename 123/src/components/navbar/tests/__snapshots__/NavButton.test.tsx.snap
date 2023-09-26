@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation button Renders with correctly 1`] = `
+<button
+  class="ButtonSelected"
+  data-testid="buttonSelected"
+  type="button"
+>
+  Home page
+</button>
+`;

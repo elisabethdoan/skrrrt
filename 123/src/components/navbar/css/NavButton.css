@@ -1,0 +1,42 @@
+.Button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-family: inherit;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.Button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #554488;
+}
+
+.ButtonSelected {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-family: inherit;
+    text-decoration: underline;
+    text-decoration-color: #554488;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Button, .ButtonSelected {
+        font-size: 25px;
+        margin: 0.8rem 1.6rem 0.8rem 1.6rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Button, .ButtonSelected {
+        font-size: 20px;
+        margin: 0.6rem 1.2rem 0.6rem 1.2rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .Button, .ButtonSelected {
+        font-size: 15px;
+        margin: 0.4rem 0.8rem 0.4rem 0.8rem;
+    }
+}

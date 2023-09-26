@@ -1,0 +1,17 @@
+#radioButtons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#lineChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#header {
+  margin-top: 10px;
+  text-align: center;
+}

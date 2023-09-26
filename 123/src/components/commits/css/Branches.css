@@ -1,0 +1,20 @@
+#commits {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.selector {
+    font-size: 15px;
+    border-style: groove;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 60%;
+    border-radius: 1%;
+    overflow-wrap: break-word;
+    hyphens: auto
+}

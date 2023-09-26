@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests that rendering Issues matches snapshot, 1`] = `
+<div
+  id="issues"
+>
+  <h2>
+    Issues: 
+  </h2>
+  <form
+    id="radioButtons"
+  >
+    <label
+      className="container"
+      htmlFor="allIssues"
+    >
+      All Issues
+      <input
+        checked={true}
+        className="defaultRadioButton"
+        id="allIssues"
+        name="filterButtons"
+        onChange={[Function]}
+        type="radio"
+        value="allIssues"
+      />
+      <span
+        className="newRadioButton"
+        id="allSpan"
+      />
+    </label>
+    <label
+      className="container"
+      htmlFor="openIssues"
+    >
+      Open Issues
+      <input
+        checked={false}
+        className="defaultRadioButton"
+        id="openIssues"
+        name="filterButtons"
+        onChange={[Function]}
+        type="radio"
+        value="openIssues"
+      />
+      <span
+        className="newRadioButton"
+        id="openSpan"
+      />
+    </label>
+    <label
+      className="container"
+      htmlFor="closedIssues"
+    >
+      Closed Issues
+      <input
+        checked={false}
+        className="defaultRadioButton"
+        id="closedIssues"
+        name="filterButtons"
+        onChange={[Function]}
+        type="radio"
+        value="closedIssues"
+      />
+      <span
+        className="newRadioButton"
+      />
+    </label>
+  </form>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests that rendering IssueChart matches snapshot, 1`] = `
+<div
+  id="issue"
+>
+  <h3
+    id="title"
+  >
+    TestIssue #1
+  </h3>
+  <hr
+    id="line"
+  />
+  <br />
+  <p>
+    <b>
+      Description: 
+    </b>
+    Dette er et testIssue
+  </p>
+  <p>
+    <b>
+      State: 
+    </b>
+    closed
+  </p>
+  <p>
+    <b>
+      Labels: 
+    </b>
+    
+  </p>
+  <p>
+    <b>
+      Created at: 
+    </b>
+    28.9.2021, 13:00:36
+  </p>
+  <p>
+    <b>
+      Closed at: 
+    </b>
+    29.9.2021, 13:00:36
+  </p>
+</div>
+`;

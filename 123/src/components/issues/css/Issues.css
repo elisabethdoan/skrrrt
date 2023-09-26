@@ -1,0 +1,87 @@
+#issues {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+#radioButtons {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.defaultRadioButton {
+  opacity: 0;
+}
+
+.newRadioButton {
+  position: relative;
+  background-color: #eee;
+  height: 25px;
+  width: 25px;
+  display:inline-block;
+  top:5px;
+  right: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.defaultRadioButton:hover ~ .newRadioButton {
+  background-color: #ccc;
+}
+
+.defaultRadioButton:checked ~ .newRadioButton {
+  background-color: #fc6d26;
+}
+
+.newRadioButton:after { 
+  content: "";
+  position: absolute;
+  display: none;
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #554488;
+}
+
+.defaultRadioButton:checked ~ .newRadioButton:after {
+  display: block;
+}
+
+.container {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+#sorting {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #issues {
+    margin-bottom: 30px;
+  }
+  
+  #radioButtons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+
+  #openSpan {
+    margin-left: 10px;
+  }
+
+  #allSpan {
+    margin-left: 27px;
+  }
+}

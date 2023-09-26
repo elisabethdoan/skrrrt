@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests that rendering IssueChart matches snapshot, 1`] = `
+Array [
+  <h2
+    id="header"
+  >
+    Stats:
+  </h2>,
+  <form
+    id="radioButtons"
+  >
+    <label
+      className="container"
+      htmlFor="dailyStats"
+    >
+      By day
+      <input
+        checked={false}
+        className="defaultRadioButton"
+        id="dailyStats"
+        name="filterButtons"
+        onChange={[Function]}
+        type="radio"
+        value="dailyStats"
+      />
+      <span
+        className="newRadioButton"
+        id="allSpan"
+      />
+    </label>
+    <label
+      className="container"
+      htmlFor="montlyStats"
+    >
+      By month
+      <input
+        checked={false}
+        className="defaultRadioButton"
+        id="montlyStats"
+        name="filterButtons"
+        onChange={[Function]}
+        type="radio"
+        value="montlyStats"
+      />
+      <span
+        className="newRadioButton"
+        id="openSpan"
+      />
+    </label>
+  </form>,
+  <div
+    id="lineChart"
+  >
+    <div
+      className="recharts-responsive-container"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,32 @@
+#commit {
+    border-style: groove;
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: #E2432A;
+    border-radius: 1%;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+#commit > p {
+    text-align: left;
+    margin-left: 1vh;
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+#line{
+    border: 1px dashed;
+}
+
+#title{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #commit {
+      width: 90%;
+    }
+}
